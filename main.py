@@ -216,7 +216,7 @@ def run_status():
     draw_header()
     cfg = get_config()
     key_raw = (cfg.get("api_key") or "").strip()
-    key_preview = (key_raw[:8] + "...") if key_raw else "(not set)"
+    key_preview = (key_raw[:8] + "...") if key_raw else "(not set)"  # type: ignore
     tbl = Table(title="Current configuration", box=BOX_STYLE, border_style="green", show_header=True, header_style="bold green")
     tbl.add_column("Setting", style="dim", width=12)
     tbl.add_column("Value", style="green")

@@ -19,6 +19,13 @@ PROVIDERS = {
         "url": "https://console.groq.com/keys",
         "models": ["kimi-k2-instruct-0905", "qwen3-32b"],
     },
+    "xai": {
+        "name": "xAI (Grok)",
+        "url": "https://console.x.ai",
+        "models": ["grok-4-1-fast"],
+        # Your API Key: xai-umDoTk4bZsCeduOckPYH8d4Q0KzQUt8v6lExaHlbj1VHNdIqswRL6kbQQPPfSC0HyFgsvQNESELgX1R7
+        # Put this API key into the HacxGPT CLI Settings menu!
+    },
     "hacxgpt": {
         "name": "HacxGPT API",
         "url": "https://hacxgpt.com",
